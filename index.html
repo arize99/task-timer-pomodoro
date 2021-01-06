@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>TASK TIMER - Pomodoro</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+  
+    <link href="style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css2?family=Montserrat&display=swap' rel="stylesheet">
+  
+</head>  
+<body>
+    <div id="banner">
+        <h1>TASK TIMER</h1>
+        <p>You have 30 secs to complete the set task!</p>
+    </div>
+   
+<main>
+    <div class="container">
+        
+        <span id="counter">00 : 00</span>                 
+                    
+        <div class="command">                   
+            <button id="play-button"><a onclick="start();"><i class="fas fa-play"></i></a></button>
+            <button id="stop-button"><a onclick="stop();"><i class="fas fa-pause"></i></a></button>
+            <button id="redo-button"><a onclick="reset();"><i class="fas fa-redo"></i></a></button>              
+        </div>              
+    </div>
+    
+   
+</main>
+
+<script src="chrono.js"></script>
+
+</body>
+</html>
